@@ -240,10 +240,6 @@ ul.erfaringer-content {
 }
 ul.kontakt-content {
 	width: 100%;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -276,10 +272,6 @@ ul.kontakt-content {
 /*footer*/
 
 footer {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
