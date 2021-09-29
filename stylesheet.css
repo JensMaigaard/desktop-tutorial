@@ -23,10 +23,6 @@ header {
 	left: 0;
 	z-index: 10;
 	width: 100%;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -155,7 +151,6 @@ section p {
 	}
 }
 /*Om Mig*/
-
 ul.om-mig-content {
 	width: 100%;
 	display: flex;
@@ -208,7 +203,6 @@ ul.om-mig-content {
 	}
 }
 /*erfaringer area*/
-
 #erfaringer {
 	background:lightblue;
 }
