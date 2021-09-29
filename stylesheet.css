@@ -33,10 +33,6 @@ header h2 {
 	text-transform: uppercase;
 }
 header nav {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 }
 header nav li {
