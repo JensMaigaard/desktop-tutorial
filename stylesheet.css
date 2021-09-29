@@ -63,10 +63,6 @@ header nav li:last-child {
 /*banner area*/
 
 section {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
