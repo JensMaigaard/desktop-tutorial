@@ -8,6 +8,7 @@ html {
 }
 body {
 	font-family: poppins;
+	font-weight: 100;
 }
 ul, nav {
 	list-style: none;
@@ -28,7 +29,7 @@ header {
 	align-items: center;
 	color: #fff;
 	padding: 35px 100px 0;
-	
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 header h2 {
@@ -46,22 +47,6 @@ header nav li:first-child {
 header nav li:last-child {
 	margin-right: 0;
 }
-@media(max-width:1000px) {
-	header {
-		padding: 20px 50px;
-	}
-}
-@media (max-width:700px) {
-	header {
-		flex-direction: column;
-	}
-	header h2 {
-		margin-bottom: 15px;
-	}
-	header nav li {
-		margin: 0 7px;
-	}
-}
 /*banner area*/
 
 section {
@@ -69,16 +54,6 @@ section {
 	flex-direction: column;
 	align-items: center;
 	padding: 110px 100px;
-}
-@media (max-width:1000px) {
-	section {
-		padding: 100px 50px;
-	}
-}
-@media (max-width:600px) {
-	section {
-		padding: 125px 30px;
-	}
 }
 section p {
 	max-width: 800px;
@@ -99,6 +74,15 @@ footer {
 	padding: 60px 0;
 }
 
+@media(max-width:1000px) {
+	header {
+		padding: 20px 50px;
+	}
+
+	section {
+		padding: 100px 50px;
+	}
+}
 @media (max-width:800px) {
 	.banner-area {
 		min-height: 600px;
@@ -113,3 +97,22 @@ footer {
 		padding: 15px 40px;
 	}
 }
+
+@media (max-width:700px) {
+	header {
+		flex-direction: column;
+	}
+	header h2 {
+		margin-bottom: 15px;
+	}
+	header nav li {
+		margin: 0 7px;
+	}
+}
+
+@media (max-width:600px) {
+	section {
+		padding: 125px 30px;
+	}
+}
+
